@@ -26,85 +26,63 @@ body
         margin:0vw 0vw 2vw 0vw;       
 }
 
+
 .headboxdoc 
 {
-    	width:54vw;
-    	height:auto;
-        padding:0vw 0vw 3vw 0vw;         
+    width: 54vw;
+    height: auto;
+    padding: 0vw 0vw 1vw 0vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
-
-
 
 .doc 
 {       
-        margin:0vw 0.9vw 0vw 0.9vw;
-        padding:0.5vw 0vw 0.5vw 0vw;
-        width:9vw;
-        height:auto;
-        float:left;
-        font-family:calibri,arial,sans-serif;
-        color:rgba(204, 238, 255, 0.9);
-        text-shadow: 0.1vw 0.1vw 0.1vw rgba(9, 9, 9, 0.5);
-        font-size:1.4vw;
-        font-weight:200;
-        text-align:center;               
+    margin: 0.4vw 0.5vw;
+    padding: 0.5vw 0.6vw;
+    /* Removed width: 9vw and float: left */
+    font-family: calibri, arial, sans-serif;
+    color: rgba(204, 238, 255, 0.9);
+    text-shadow: 0.1vw 0.1vw 0.1vw rgba(9, 9, 9, 0.5);
+    font-size: calc(0.70rem + 0.5vw);
+    font-weight: 200;
+    text-align: center;               
 }
+
 
 .doc:hover { color:#06a;}
 
 
 .doc2 
 {
-        margin:0.5vw 0vw 1vw 0vw;
-        width:24vw;
-        height:auto;
-        float:left;
-        margin-left:15vw; margin-right:15vw;
-        font-family:calibri,arial,sans-serif;
-        color:rgba(204, 238, 255, 0.9);
-        text-shadow: 0.1vw 0.1vw 0.2vw rgba(9, 9, 9, 0.5);
-        font-size:1.5vw;
-        font-weight:200;
-        text-align:center; 
-        border-radius:0.5vw; 
+    margin: 0.5vw auto 1vw auto;
+    width: 24vw;
+    height: auto;
+    font-family: calibri, arial, sans-serif;
+    color: rgba(204, 238, 255, 0.9);
+    text-shadow: 0.1vw 0.1vw 0.2vw rgba(9, 9, 9, 0.5);
+    font-size: calc(0.75rem + 0.5vw);
+    font-weight: 200;
+    text-align: center;
+    border-radius: 0.5vw;
 }
 
 .doc2:hover { color:#06a;}
 
 .doc3 
 {
-        margin:0.5vw 0vw 1vw 0vw;
-        width:24vw;
-        height:auto;
-        float:left;
-        margin-left:15vw; margin-right:15vw;
-        font-family:calibri,arial,sans-serif; #font-style:italic;
-        color:rgba(204, 238, 255, 0.9);
-        text-shadow: 0.1vw 0.1vw 0.1vw rgba(9, 9, 9, 0.5);     
-        font-size:1.5vw;
-        font-weight:200;
-        text-align:center; 
-        border-radius:0.5vw; 
+    margin: 0.5vw auto 1vw auto;
+    width: 24vw;
+    height: auto;
+    font-family: calibri, arial, sans-serif;
+    color: rgba(204, 238, 255, 0.9);
+    text-shadow: 0.1vw 0.1vw 0.2vw rgba(9, 9, 9, 0.5);
+    font-size: calc(0.75rem + 0.5vw);
+    font-weight: 200;
+    text-align: center;
+    border-radius: 0.5vw;
 }
-
-.doc4 
-{
-        margin:0.5vw 0vw 1.5vw 0vw;
-        width:13vw;
-        height:auto;
-        float:left;
-        font-family:calibri,arial,sans-serif;
-        color:rgba(204, 238, 255, 0.9);
-        text-shadow: 0.1vw 0.1vw 0.1vw rgba(9, 9, 9, 0.5);
-        font-size:1.4vw;
-        font-weight:400;
-        text-align:center;         
-}
-
-.doc4:hover { color:#06a;}
-
-
-
 
 .bodybox 
 {
@@ -133,28 +111,9 @@ hr
 
 .footer:hover {color:#06a;}
 
-.footer2 
+p
 {
-        width:24vw;
-        float:left;
-        height:auto;
-        margin-left:15vw;
-        margin-top: 1vw;
-        margin-bottom:1vw;
-        font-family:calibri,arial,sans-serif; font-style:italic;
-        text-shadow: 0.1vw 0.1vw 0.2vw rgba(9, 9, 9, 0.5);
-        color:rgba(204, 238, 255, 0.9);
-        font-size:1.3vw;
-        font-weight:200;
-        text-align:center; 
-        border-radius:1vw;          
-}
 
-.footer2:hover{color:#05a;}
-
-
-p 
-{
         font-family: calibri, arial, sans-serif;
         font-size:calc(0.65rem + 0.5vw);
 	color:rgba(204, 238, 255, 0.9);
@@ -222,7 +181,7 @@ h2
 h3  
 {
         font-family: calibri,arial, sans-serif; font-style:italic;
-        font-size: 1.3vw;
+        font-size: calc(0.65rem + 0.5vw);
         text-shadow: 0.1vw 0.1vw 0.2vw rgba(9,9,9, 0.6);
         font-weight: 400;
         margin:1vw 0vw 1vw 0vw;
