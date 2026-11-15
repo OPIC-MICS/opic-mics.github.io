@@ -38,17 +38,20 @@ body
 }
 
 .doc 
-{       
-    margin: 0.4vw 0.5vw;
-    padding: 0.5vw 0.6vw;
-    /* Removed width: 9vw and float: left */
+{
+    margin: 0.5vw;
+    padding: 0.5vw 0.8vw;
+    /* Removed width: 11.7vw and float: left */
     font-family: calibri, arial, sans-serif;
     color: rgba(204, 238, 255, 0.9);
-    text-shadow: 0.1vw 0.1vw 0.1vw rgba(9, 9, 9, 0.5);
-    font-size: calc(0.70rem + 0.5vw);
+    text-shadow: 0.1vw 0.1vw 0.2vw rgba(9, 9, 9, 0.5);
+    font-size: calc(0.75rem + 0.5vw);
     font-weight: 200;
-    text-align: center;               
+    text-align: center;
 }
+
+
+
 
 
 .doc:hover { color:#06a;}
