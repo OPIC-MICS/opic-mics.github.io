@@ -37,9 +37,20 @@ body
     justify-content: space-around;
 }
 
+.headboxdoc2 
+{
+    width: 54vw;
+    height: auto;
+    padding: 0vw 0vw 0vw 0vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
 .doc 
 {
-    margin: 0.5vw;
+    margin: 0.5vw  auto 1vw auto;
     padding: 0.5vw 0.8vw;
     /* Removed width: 11.7vw and float: left */
     font-family: calibri, arial, sans-serif;
@@ -49,11 +60,6 @@ body
     font-weight: 200;
     text-align: center;
 }
-
-
-
-
-
 .doc:hover { color:#06a;}
 
 
@@ -65,7 +71,7 @@ body
     font-family: calibri, arial, sans-serif;
     color: rgba(204, 238, 255, 0.9);
     text-shadow: 0.1vw 0.1vw 0.2vw rgba(9, 9, 9, 0.5);
-    font-size: calc(0.75rem + 0.5vw);
+    font-size: calc(0.9rem + 0.5vw);
     font-weight: 200;
     text-align: center;
     border-radius: 0.5vw;
@@ -81,7 +87,7 @@ body
     font-family: calibri, arial, sans-serif;
     color: rgba(204, 238, 255, 0.9);
     text-shadow: 0.1vw 0.1vw 0.2vw rgba(9, 9, 9, 0.5);
-    font-size: calc(0.75rem + 0.5vw);
+    font-size: calc(0.9rem + 0.5vw);
     font-weight: 200;
     text-align: center;
     border-radius: 0.5vw;
@@ -98,7 +104,7 @@ body
 
 hr 
 {
- 	height: 0.1vw;
+ 	height: 1px;
         width:42vw;
         background-image:linear-gradient(to right,rgba(204,238,255,0),rgba(204,238,255,0.7),rgba(204,238,255,0));
         border: none;

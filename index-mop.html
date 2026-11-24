@@ -54,9 +54,7 @@
 <hr>
 
 <div class="bodybox">
-     
-
-    
+         
 <div class="doc3"> <b>NEW OPTIONS</b></div></a>
        
  <p>        
@@ -65,9 +63,7 @@
  <br><br>
 </p>
 
-
-
- <hr>
+ <hr><br>
 
  <div class="headboxdoc2">
 
@@ -77,15 +73,13 @@
       
 </div>
     
-<br>
-
 <p>   
         It is possible to use an LDC capsule in a basic configuration, without fitting a separate voltage multiplier for capsule polarisation. 
         The sensitivity will be slightly reduced (by around 3dB) when compared to the same capsule biased with 60v of polarisaton.<br>
        
-        The OPIC.Basic circuit shown below uses the 48v phantom power to supply c.30v to the op-amp circuitry.   
-        In addition, the non audio leg (pin3) supplies c.40v as the capsule polarisation voltage. 
-        As there is essentially no current drawn by that high impedance capsule 'load', the system remains impedance balanced...
+        The OPIC.Basic circuit shown below uses the 48v phantom power to supply c.30v to the op-amp circuitry...   
+        In addition, the non audio leg (pin3) supplies c.40v as the capsule polarisation voltage.<br> 
+        As there is essentially no current drawn by that high impedance capsule 'load', the system remains impedance balanced.<br>
         It's a simpler version that works well!
 </p>  
     
@@ -100,7 +94,38 @@
         
         </a>
 
- <hr>
+ <hr> <br>
+
+          <div class="headboxdoc2">
+
+                <a href="docs/OPIC.EQ.3.pdf">
+
+                <div class="doc2"> <b>• OPIC.EQ3 •</b></div></a>
+      
+        </div>    
+
+<p>   
+        The new EQ3 version of the OPIC project uses an OPA1642 dual op-amp, so that low and high pass filters - together with gain adjustments  - are now included in the signal path. <br>
+
+The schematic shows component values selected to provide typical bandpass filters.<br> Those values can of course be varied to suit individual project requirements... 
+        
+</p>
+ 
+    
+<p class="cen4">
+        <i><span>
+            • Just click on the image below for a PDF of the OPIC.EQ3 project details •</span></i>
+
+</p>     
+        
+        <a href="docs/OPIC.EQ3.pdf">   
+    
+       <img src="images/OPIC.EQ3.schematic.jpg"
+         style="float:left;width:48vw;height:auto;margin:1vw 2vw 2vw 2vw;border-radius:0.5vw;">
+        
+        </a> 
+
+<hr><br> 
  
 
           <div class="headboxdoc2">
@@ -112,7 +137,7 @@
         </div>
     
 
-<br>
+
 
 <p>   
       OPIC.44 is the latest version of the standard OPIC impedance converter and voltage multiplier schematic. 
@@ -136,46 +161,7 @@
         
         </a>
 
-  <hr> 
-  
-  
-         <div class="headboxdoc2">
-
-                <a href="docs/OPIC.EQ.3.pdf">
-
-                <div class="doc2"> <b>• OPIC.EQ3 •</b></div></a>
-      
-        </div>    
-
-<br>
-
-
-<p>   
-        The new EQ3 version of the OPIC project uses an OPA1642 dual op-amp, so that low and high pass filters - together with gain adjustments  - are now included in the signal path. <br>
-The low pass filter function allows for the attenuation of the excess high frequency content of many K.67 style capsules, while the high pass filter allows for unwanted ultra low frequency content to be reduced.
-The schematic shows typical component values suited to these tasks.<br> Those values can of course be varied to suit individual project requirements... 
-        
-</p>
- 
-    
-<p class="cen4">
-        <i><span>
-            • Just click on the image below for a PDF of the OPIC.EQ3 project details •</span></i>
-
-</p>     
-        
-        <a href="docs/OPIC.EQ3.pdf">   
-    
-       <img src="images/OPIC.EQ3.schematic.jpg"
-         style="float:left;width:48vw;height:auto;margin:1vw 2vw 2vw 2vw;border-radius:0.5vw;">
-        
-        </a> 
-
-                <hr> 
-
-
-
-
+  <hr><br> 
 
 <div class="headboxdoc2">
 
@@ -184,26 +170,19 @@ The schematic shows typical component values suited to these tasks.<br> Those va
         <div class="doc2"> <b>• OPIC.TX3 •</b></div></a>
 
 </div>
-<br>
-
 <p>   
-• <i>OPIC.TX3 is the latest issue of the transformer coupled versions of the OPIC project... This TX3 version includes a regulated op-amp DC supply, to enable more precise pad attenuation levels to be calibrated, regardless of variations in phantom power supplies ...
-( You can find copies of earlier OPIC.TX project notes by clicking on the appropriate title at the bottom of this page ) • </i> <br><br>
 
-• TX3 is a transformer coupled version of the original OPIC circuit, fitted with a Neutrik NTE 1 transformer on the output.<br> 
-• The impedance converter is functionally identical to the other OPIC versions, but is fitted with a small transformer to provide a true balanced output in place of the single sided capacitively coupled standard OPIC output, which uses passive impedance balancing. <br>
-• The TX3 version also includes an optional Chebyshev 2nd order high pass filter, which may be configured from the positioning of a single link on the stripboard.<br> 
-• That function could also be performed by a simple SPDT switch fitted externally, if required.<br>
-• The voltage multiplier employs the same Hartley oscillator configuration used in the famous 'Schoeps CMC5' schematic, to create a simple circuit with a low component count that can provide the required high value DC polarisation voltage for the microphone capsule.  
-<br>
-• The TX3 version of this voltage multiplier also includes the option to add a 'pad' to the microphone circuitry, if required.<br>
-<i>( The original OPIC concept provides for maximum output signal levels of up to +20dB, which essentially meant that any overloads were likely to occur in the following pre-amp, rather than in the mic itelf... The regulation of the op-amp DC supply at 12v in this TX3 version limits that headroom, but allows for more precise pad attenuation settings...    
-The addition of an output transformer also means that it is more likely that the mic sensitivity may need to be reduced when recording loud sound sources, to prevent the transformer core becoming saturated - especially at low frequencies - and possibly adding distortion. )</i>
+
+TX3 is a transformer coupled version of the original OPIC circuit, fitted with a Neutrik NTE 1 transformer which provides a fully balanced output.<br> 
+
+This version also includes an optional Chebyshev 2nd order high pass input filter.<br> 
+
+The voltage multiplier also includes an option to select a lower voltage setting, to provide a 'pad' when recording loud sources<br>
+
 <br> 
-• This new pad arrangement is also activated via a simple link or SPDT switch.  It can be adjusted to offer any depth of pad required, by simply adjusting an internal potentiometer, to allow a lower polarisation voltage to be applied to the capsule.<br> 
-• The OPIC.TX3 version is intended to be fitted into a BM800 style body.
-</p>
 
+
+</p>
 
 <p class="cen4">
 
@@ -217,7 +196,7 @@ The addition of an output transformer also means that it is more likely that the
 
 </a>
        
-        <hr> 
+<hr><br> 
 
 
         <div class="headboxdoc2">
@@ -228,15 +207,13 @@ The addition of an output transformer also means that it is more likely that the
 
 </div>
 
-<br>
-
 <p>   
 OPIC.FS2 is a version which incorporates all the 'extras' added to the project over the last couple of years...<br>
-• Designed to use a dual sided LDC capsule, and to fit into a U87 style donor body <br> 
-• A transformer coupled balanced output <br>
-• An optional Chebyshev 2nd order high pass filter<br>
-• A three way pattern select option - Omni, Figure of 8 or Cardioid <br>
-• A selectable attenuation 'pad' option, the depth of which can be adjusted to suit individual requirements <br> 
+• Designed to use a dual sided LDC capsule, and to fit into a U87 style donor body. <br> 
+• A transformer coupled balanced output. <br>
+• An optional Chebyshev 2nd order high pass filter.<br>
+• A three way pattern select option - Omni, Figure of 8 or Cardioid. <br>
+• A selectable attenuation 'pad' option, the depth of which can be adjusted to suit individual requirements. <br> 
 
 These additional functions should expand the options available to those who enjoy experimenting with OPIC ideas ! 
 
@@ -259,7 +236,7 @@ These additional functions should expand the options available to those who enjo
 
 <br>
 
-<hr>
+<hr> 
         
 </div>
    
